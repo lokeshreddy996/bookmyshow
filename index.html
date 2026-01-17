@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BookMyShow Clone</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: #1f2533;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 70px 20px;
+    border-radius: 12px;
+}
+
+.movie-card {
+    transition: all 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.poster {
+    height: 260px;
+    object-fit: cover;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark">
+  <div class="container">
+    <span class="navbar-brand fw-bold text-danger">🎬 BookMyShow</span>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+<div class="hero text-center mb-4">
+    <h1 class="fw-bold">Book Your Movie Experience</h1>
+    <p class="opacity-75">Discover • Watch trailers • Book tickets</p>
+</div>
+
+<div class="row">
+
+<!-- DUDE -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://img.studioflicks.com/wp-content/uploads/2025/05/11194832/Dude-Movie-HD-Second-Look-Poster-576x1024.jpeg" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">Dude</h5>
+      <span class="badge bg-primary">Action</span>
+      <span class="badge bg-secondary">Telugu</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 150 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+<!-- F1 -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://davidegates.com/wp-content/uploads/2025/07/f1-the-movie-2025-06-28-11-45-08.png" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">F1</h5>
+      <span class="badge bg-primary">Sports</span>
+      <span class="badge bg-secondary">English</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 145 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+<!-- LOKAH -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://th-i.thgim.com/public/incoming/iofv4b/article69988952.ece/alternates/FREE_1200/lokah.jpeg" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">Lokah</h5>
+      <span class="badge bg-primary">Action</span>
+      <span class="badge bg-secondary">Telugu</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 148 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+<!-- LITTLE HEARTS -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://images.justwatch.com/poster/336471637/s718/little-hearts-2025.jpg" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">Little Hearts</h5>
+      <span class="badge bg-primary">Romance</span>
+      <span class="badge bg-secondary">Telugu</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 140 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+<!-- GAME CHANGER -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://i.ytimg.com/vi/QSu9-DBjMPI/maxresdefault.jpg" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">Game Changer</h5>
+      <span class="badge bg-primary">Political</span>
+      <span class="badge bg-secondary">Telugu</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 160 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+<!-- BRAHMASTRA -->
+<div class="col-md-4 mb-4">
+  <div class="card movie-card h-100">
+    <img src="https://m.media-amazon.com/images/M/MV5BYjM0YWRjYTQtY2QyNS00ZGJkLTlmOGItOWQxN2Q5MGQ2ZjBmXkEyXkFqcGc@._V1_.jpg" class="card-img-top poster">
+    <div class="card-body">
+      <h5 class="fw-bold">Brahmastra</h5>
+      <span class="badge bg-primary">Fantasy</span>
+      <span class="badge bg-secondary">Hindi</span>
+      <p class="text-muted small mt-2"><i class="fa fa-clock"></i> 165 mins</p>
+      <a href="#" class="btn btn-outline-danger btn-sm w-100 mb-2">▶ Watch Trailer</a>
+      <button class="btn btn-success btn-sm w-100">🎟 Book Ticket</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<footer class="text-center text-muted my-4">
+© 2026 BookMyShow Clone | Internship Project
+</footer>
+
+</div>
+
+</body>
+</html>
